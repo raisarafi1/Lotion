@@ -17,11 +17,7 @@ a {
   text-decoration: none;
 }
 
-
 nav {
-  /* display: flex; */
-  /* justify-content: center; */
-  /* flex-direction: column; */
   background-color: white;
   border-top: 3px solid #566573;
   border-bottom: 1px solid lightgrey;
@@ -38,7 +34,6 @@ nav {
   font-weight: bold;
 }
 
-
 .subtitle {
   display: flex;
   justify-content: center;
@@ -52,20 +47,11 @@ nav {
 
 #menu-icon {
   display: flex;
-  flex-direction: column;
-  /* justify-content: start;
-  align-items: center; */
+  justify-content: start;
+  align-items: center; 
   font-size: 24px;
   cursor: pointer;
 }
-
-
-/* .stacked {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-} */
 
 
 #container {
@@ -149,11 +135,23 @@ nav {
   font-family: Arial, Helvetica, sans-serif;
   padding: 10px;
   font-weight: bold;
+  border: none;
+}
+
+#editor-box {
+  height: 100vh;
 }
 
 
-/* .save-edit-buttons {
+.save-edit {
+  cursor: pointer;
+  background-color: #566573;
+  color: white;
+  padding: 10px;
+  border: none;
+}
+
+.button-positioning {
   display: flex;
   justify-content: end;
-  color:red;
-} */
+}
